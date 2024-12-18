@@ -3,7 +3,7 @@ import Image from "next/image";
 
 function HeroSection() {
   return (
-    <main>
+    <main className="max-w-[1440px] mx-auto">
       <section className="grid grid-cols-2 justify-between">
         {/*Text Section*/}
         <div className="flex grid-span-6 text-black items-center">
